@@ -11,11 +11,11 @@ buildscript {
 }
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 28
 
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 22
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
     }
@@ -31,6 +31,6 @@ repositories {
 }
 
 dependencies {
-    compile 'com.facebook.react:react-native:+'
-    compile(name: 'alipaySdk-15.6.0-20190226104104-noUtdid', ext: 'aar')
+    implementation 'com.facebook.react:react-native:+'
+    implementation(name: 'alipaySdk-15.6.0-20190226104104-noUtdid', ext: 'aar')
 }
